@@ -1,0 +1,19 @@
+id: tianran
+name: "天然"
+depends: []
+pluginDepends: []
+version: "1.0"
+scriptListener: "script-listener"
+description: "专为新手用的附属-天然"
+authors: ["xlp"]
+repo: "SlimefunReloadingProject/rsc-tianran"
+idPattern: tianran_%0
+loadStartTexts:
+  - "=================="
+  - "天然附属  开始加载 "
+  - "=================="
+enabledTexts:
+  - "=================="
+  - "天然附属  加载完成 "
+  - "-----欢迎使用-----"
+  - "=================="

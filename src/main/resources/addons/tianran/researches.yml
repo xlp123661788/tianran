@@ -1,0 +1,12 @@
+chiseled_research_material:
+  id: 891995001
+  name: "材料"
+  levelCost: 1
+  items:
+    - chiseled_items_material_cobblestone
+    - chiseled_items_material_redstone
+    - chiseled_items_material_bluestone
+    - chiseled_items_material_diamond
+    - chiseled_items_material_emerald
+    - chiseled_items_material_netherStar
+    - chiseled_items_material_quartzOre
