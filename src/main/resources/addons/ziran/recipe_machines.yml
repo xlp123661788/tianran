@@ -25,9 +25,169 @@ recipe_machine_chiseled_cobblestone:
       material: chiseled_stone_bricks
   capacity: 1024
   input: [4]
+  output: [9,10,11,12,13,14,15,16,17]
+  energyPerCraft: 1
+  speed: 1024
+  hideAllRecipes: false
+  recipes:
+    one:
+      chooseOne: false
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: cobblestone
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: cobblestone
+          chance: 100
+          amount: 64
+    two:
+      chooseOne: false
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: redstone
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: redstone
+          chance: 100
+          amount: 64
+    three:
+      chooseOne: false
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: diamond
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: diamond
+          chance: 100
+          amount: 64
+    four:
+      chooseOne: false
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: quartz
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: quartz
+          chance: 100
+          amount: 64
+    five:
+      chooseOne: false
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: nether_star
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: nether_star
+          chance: 100
+          amount: 64
+    six:
+      chooseOne: false
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: emerald
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: emerald
+          chance: 100
+          amount: 64
+    seven:
+      chooseOne: false
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: lapis_lazuli
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: lapis_lazuli
+          chance: 100
+          amount: 64
+
+recipe_machine_chiseled_cobblestone_II:
+  item_group: chiseled_machine_group
+  item:
+    material: blast_furnace
+    name: "&9自然雕刻机II"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: dragon_egg
+      amount: 64
+    2:
+      material: dragon_egg
+      amount: 64
+    3:
+      material: dragon_egg
+      amount: 64
+    4:
+      material: dragon_egg
+      amount: 64
+    5:
+      material:
+    6:
+      material: dragon_egg
+      amount: 64
+    7:
+      material: dragon_egg
+      amount: 64
+    8:
+      material: dragon_egg
+      amount: 64
+    9:
+      material: dragon_egg
+      amount: 64
+  capacity: 1024
+  input: [4]
   output: [13]
   energyPerCraft: 1
-  speed: 256
+  speed: 8192
   hideAllRecipes: false
   recipes:
     one:
@@ -135,10 +295,10 @@ recipe_machine_chiseled_cobblestone:
       input:
         1:
           material_type: mc
-          material: lapis_ore
+          material: lapis_lazuli
           amount: 1
       output:
         1:
           material_type: mc
-          material: lapis_ore
+          material: lapis_lazuli
           chance: 100
