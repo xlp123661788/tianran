@@ -1,0 +1,58 @@
+recipe_machine_chiseled_cobblestone:
+  item_group: chiseled_machine_group
+  item:
+    material: lodestone
+    name: "&9自然雕刻机"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: chiseled_stone_bricks
+    2:
+      material: chiseled_stone_bricks
+    3:
+      material: chiseled_stone_bricks
+    4:
+      material: chiseled_stone_bricks
+    5:
+      material: diamond
+    6:
+      material: chiseled_stone_bricks
+    7:
+      material: chiseled_stone_bricks
+    8:
+      material: chiseled_stone_bricks
+    9:
+      material: chiseled_stone_bricks
+  capacity: 3000
+  input: [10,11]
+  output: [18,19,20,21,22,23,24,25,26,27,28,29,30]
+  energyPerCraft: 0.1
+  speed: 32
+  hideAllRecipes: false
+  recipes:
+    cobblestone:
+      chooseOne: true
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 10
+      input:
+        1:
+          material: cobblestone
+      output:
+        1:
+          material: cobblestone
+          chance: 100
+    redstone:
+      chooseOne: true
+      noConsume: true
+      forDisplay: false
+      hide: false
+      seconds: 10
+      input:
+        1:
+          material: redstone
+      output:
+        1:
+          material: redstone
+          chance: 100

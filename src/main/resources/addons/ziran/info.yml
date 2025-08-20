@@ -1,19 +1,19 @@
-id: tianran
-name: "天然"
+id: ziran
+name: "自然"
 depends: []
 pluginDepends: []
 version: "1.0"
 scriptListener: "script-listener"
-description: "专为新手用的附属-天然"
+description: "专为新手用的附属-自然"
 authors: ["xlp"]
 repo: "xlp123661788/tianran"
-idPattern: tianran_
+idPattern: ziran_
 loadStartTexts:
   - "=================="
-  - "天然附属  开始加载 "
+  - "自然附属  开始加载 "
   - "=================="
 enabledTexts:
   - "=================="
-  - "天然附属  加载完成 "
+  - "自然附属  加载完成 "
   - "-----欢迎使用-----"
   - "=================="

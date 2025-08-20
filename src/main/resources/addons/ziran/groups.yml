@@ -1,7 +1,7 @@
 chiseled_group:
   type: parent
   item:
-    name: "&b->天然自得<-"
+    name: "&b->自然工艺<-"
     material: chiseled_stone_bricks
 
 chiseled_material_group:

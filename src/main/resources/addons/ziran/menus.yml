@@ -1,0 +1,33 @@
+#模板机构菜单面板结构
+recipe_machine_chiseled_cobblestone:
+  title: "&9自然雕刻机-&1圆石"
+  slots:
+    0-4:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    6-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+
+
+#料材生成器
+#chiseled_machine_chiseled_cobblestone:
+#  title: "&9自然雕刻机-&1圆石"
+#  slots:
+#    0-3:
+#      name: "&a"
+#      material: BLACK_STAINED_GLASS_PANE
+#    # 注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置，你可以在材料生成器的配置中修改 `status` 参数
+#    5-17:
+#      name: "&a"
+#      material: BLACK_STAINED_GLASS_PANE
+#
+#chiseled_machine_chiseled_redstone:
+#  title: "&9自然雕刻机-&1红石"
+#  slots:
+#    0-3:
+#      name: "&a"
+#      material: BLACK_STAINED_GLASS_PANE
+#    5-17:
+#      name: "&a"
+#      material: BLACK_STAINED_GLASS_PANE
