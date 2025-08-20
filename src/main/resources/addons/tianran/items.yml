@@ -16,7 +16,8 @@ chiseled_items_material_cobblestone:
     4:
       material: chiseled_stone_bricks
     5:
-      material: gray_dye
+      material_type: slimefun
+      material: STONE_CHUNK
     6:
       material: chiseled_stone_bricks
     7:

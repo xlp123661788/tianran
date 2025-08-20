@@ -6,8 +6,8 @@ version: "1.0"
 scriptListener: "script-listener"
 description: "专为新手用的附属-天然"
 authors: ["xlp"]
-repo: "SlimefunReloadingProject/rsc-tianran"
-idPattern: tianran_%0
+repo: "xlp123661788/tianran"
+idPattern: tianran_
 loadStartTexts:
   - "=================="
   - "天然附属  开始加载 "
