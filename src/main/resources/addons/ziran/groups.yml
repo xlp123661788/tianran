@@ -28,5 +28,3 @@ chiseled_machine_group:
   item:
     name: "&a机器"
     material: furnace
-  actions:
-    - "open_itemgroup slimefun:machine"
