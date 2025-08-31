@@ -1,0 +1,35 @@
+recipe_chiseled_generators_group_item:
+  item_group: chiseled_generators_group
+  item:
+    name: "&a发电机"
+    material: smoker
+  capacity: 100000
+  production: 100
+  input: [9,10,11,12,13,14,15,16,17]
+  output: []
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: smoker
+    2:
+      material: smoker
+    3:
+      material: smoker
+    4:
+      material: smoker
+    5:
+      material: NULL
+    6:
+      material: smoker
+    7:
+      material: smoker
+    8:
+      material: smoker
+    9:
+      material: smoker
+  fuels:
+    one:
+      item:
+        material: cobblestone
+        amount: 1
+      seconds: 2147483647

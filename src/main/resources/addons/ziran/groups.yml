@@ -28,3 +28,10 @@ chiseled_machine_group:
   item:
     name: "&a机器"
     material: furnace
+
+chiseled_generators_group:
+  type: sub
+  parent: "chiseled_group"
+  item:
+    name: "&a发电机"
+    material: smoker

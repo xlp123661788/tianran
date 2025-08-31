@@ -14,7 +14,7 @@ recipe_machine_chiseled_cobblestone:
     4:
       material: chiseled_stone_bricks
     5:
-      material: diamond
+      material: NULL
     6:
       material: chiseled_stone_bricks
     7:
@@ -159,30 +159,22 @@ recipe_machine_chiseled_cobblestone_II:
   recipe:
     1:
       material: dragon_egg
-      amount: 64
     2:
       material: dragon_egg
-      amount: 64
     3:
       material: dragon_egg
-      amount: 64
     4:
       material: dragon_egg
-      amount: 64
     5:
-      material:
+      material: NULL
     6:
       material: dragon_egg
-      amount: 64
     7:
       material: dragon_egg
-      amount: 64
     8:
       material: dragon_egg
-      amount: 64
     9:
       material: dragon_egg
-      amount: 64
   capacity: 1024
   input: [4]
   output: [13]
