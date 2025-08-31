@@ -1,4 +1,4 @@
-recipe_machine_chiseled_cobblestone_original:
+recipe_machine_original:
   item_group: chiseled_machine_group
   item:
     material: blast_furnace
@@ -188,13 +188,13 @@ recipe_machine_chiseled_cobblestone_original:
           chance: 100
           amount: 1
 
-recipe_machine_update_chiseled_cobblestone_original:
+recipe_machine_update_original:
   item_group: chiseled_machine_group
   item:
     material: blast_furnace
     name: "&9自然原始雕刻机II"
     lore:
-      - "&a自然原始雕刻机的进阶型"
+      - "&a自然原始雕刻机的进阶版"
       - "&a速度为1次1秒64个"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -379,7 +379,7 @@ recipe_machine_update_chiseled_cobblestone_original:
           amount: 64
 
 
-recipe_machine_chiseled_cobblestone_smlimefun:
+recipe_machine_smlimefun:
   item_group: chiseled_machine_group
   item:
     material: blast_furnace
@@ -859,13 +859,13 @@ recipe_machine_chiseled_cobblestone_smlimefun:
           amount: 1
 
 
-recipe_machine_update_chiseled_cobblestone_smlimefun:
+recipe_machine_update_smlimefun:
   item_group: chiseled_machine_group
   item:
     material: blast_furnace
     name: "&9自然粘液雕刻机II"
     lore:
-      - "&a自然雕刻机的进阶型"
+      - "&a自然粘液雕刻机的进阶型"
       - "&a速度为1次1秒64个"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:

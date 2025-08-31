@@ -3,10 +3,6 @@ recipe_generators_chiseled:
   item:
     name: "&a发电机"
     material: smoker
-    lore:
-      - "&a自然发电机:发电量为   999999 j/s"
-      - "&a发电时间:           999999  秒"
-      - "&a可存储电量为:        999999 j"
   capacity: 999999
   production: 999999
   input: [9,10,11,12,13,14,15,16,17]
