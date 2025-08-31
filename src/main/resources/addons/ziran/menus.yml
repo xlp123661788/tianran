@@ -1,5 +1,5 @@
-ziran_recipe_machine_chiseled_cobblestone:
-  title: "&9自然雕刻机"
+recipe_machine_chiseled_cobblestone_original:
+  title: "&9自然原始雕刻机"
   slots:
     0-3:
       name: "&a"
@@ -11,9 +11,8 @@ ziran_recipe_machine_chiseled_cobblestone:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 
-
-ziran_recipe_machine_chiseled_cobblestone_II:
-  title: "&9自然雕刻机II"
+recipe_machine_chiseled_cobblestone_original_II:
+  title: "&9自然原始雕刻机II"
   slots:
     0-3:
       name: "&a"
@@ -25,7 +24,30 @@ ziran_recipe_machine_chiseled_cobblestone_II:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 
-ziran_recipe_chiseled_generators_group_item:
+recipe_machine_chiseled_cobblestone_smlimefun:
+  title: "&9自然粘液雕刻机"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+
+recipe_machine_chiseled_cobblestone_smlimefun_II:
+  title: "&9自然粘液雕刻机II"
+  slots:
+    0-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+
+recipe_chiseled_generators_group_item:
   title: "&9自然发电机"
   slots:
     0-8:

@@ -3,8 +3,12 @@ recipe_chiseled_generators_group_item:
   item:
     name: "&a发电机"
     material: smoker
-  capacity: 100000
-  production: 100
+    lore:
+      - "&a自然发电机:发电量为   999999 j/s"
+      - "&a发电时间:           999999  秒"
+      - "&a可存储电量为:        999999 j"
+  capacity: 999999
+  production: 999999
   input: [9,10,11,12,13,14,15,16,17]
   output: []
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -32,4 +36,7 @@ recipe_chiseled_generators_group_item:
       item:
         material: cobblestone
         amount: 1
-      seconds: 2147483647
+      seconds: 999999
+      output:
+        material: cobblestone
+        amount: 0
