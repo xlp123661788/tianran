@@ -4,24 +4,6 @@ chiseled_group:
     name: "&b自然工艺"
     material: chiseled_stone_bricks
 
-chiseled_material_group:
-  type: sub
-  parent: "chiseled_group"
-  item:
-    name: "&a材料"
-    material: iron_ingot
-  actions:
-    - "open_itemgroup slimefun:material"
-    -
-chiseled_material_group_items:
-  type: normal
-  parent: "chiseled_material_group"
-  item:
-    name: "&d材料"
-    material: iron_ingot
-  actions:
-    - "open_itemgroup slimefun:material"
-
 chiseled_machine_group:
   type: sub
   parent: "chiseled_group"

@@ -1,4 +1,4 @@
-recipe_chiseled_generators_group_item:
+recipe_generators_chiseled:
   item_group: chiseled_generators_group
   item:
     name: "&a发电机"
